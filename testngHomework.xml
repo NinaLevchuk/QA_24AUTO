@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<test name = "AllTests Suite">
+    <classes name = "AllTestsCases">
+        <class name ="HW6.Task1"/>
+        <class name ="HW6.Task2"/>
+        <class name ="HW6.Task3"/>
+        <class name ="HW6.Task4"/>
+        <class name ="HW6.Task5"/>
+    </classes>
+</test>
+        </suite>
+
