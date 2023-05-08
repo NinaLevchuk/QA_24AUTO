@@ -45,6 +45,7 @@ public class Task4 {
         }else if (resultLine.getText().contains("Результати пошуку")){
              String resultSearch= driver.findElement
                     (By.xpath("//div[@class='search-page__box-title']/label")).getText().replace("«","").replace("»","");
+            assertEquals(resultSearch,rezalt);
         }
     }
 
